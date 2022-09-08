@@ -3,7 +3,6 @@
 /**
  *main - Prints the size of many var types
  *
- *
  * return: Always 0
  */
 int main(void)
