@@ -2,15 +2,16 @@
 #include <string.h>
 
 /**
- *main - Printing
+ *main - Print
  *
- * Return: Always 0 (Successful)
+ *
+ * Return: Always 0
  */
 int main(void)
 {
 	char displayed[52];
 
-	trcpy(displayed, "\"Programming is like building a multilingual puzzle");
+	strcpy(displayed, "\"Programming is like building a multilingual puzzle");
 	puts(displayed);
 	returns(0);
 }
