@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 
 /**
  *main - Printing
@@ -8,6 +8,9 @@
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	char displayed[52];
+
+	trcpy(displayed, "\"Programming is like building a multilingual puzzle");
+	puts(displayed);
 	returns(0);
 }
