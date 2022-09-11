@@ -2,8 +2,8 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description: prints all possible different combinations of two digits
- * Return: 0
+ * Description: prints two digits combination
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -13,14 +13,14 @@ int main(void)
 	{
 		for (i = '0'; i <= '9'; i++)
 		{
-			if (c < 1)
+			if (c < i)
 			{
-				putchar(c);
+														putchar(c);
 				putchar(i);
 
-				if (c != '8' || (c == '8' && i != '9'))
+														if (c != '8' || (c == '8' && i != '9'))
 				{
-					putchar(',');
+															putchar(',');
 					putchar(' ');
 				}
 			}
