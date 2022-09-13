@@ -4,7 +4,7 @@
  * main - prints putchar
  * Return: Always 0
  */
-int main(void)
+int main.h(void)
 {
 _putchar('_');
 _putchar('p');
