@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - prints sign of a number
- * @c: Is the int that will use for the argument of the function
+ * @n: Is the int that will use for the argument of the function
  * Return: 0
  */
 int print_sign(int n)
