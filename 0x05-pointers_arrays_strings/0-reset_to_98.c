@@ -1,19 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - checks the code
- * Return: 0
+ * reset_to_98 - resets value in address referenced by pointer.
+ * @n: pointer.
+ * Return: void.
  */
-int main(void)
+void reset_to_98(int *n)
 {
-	int n;
-	
-	int n = 98;
-	int *ip;
-
-	ip = &n;
-	
-	printf("The value of n: %d\n", *ip);
-	
-	return (0);
+	*n = 98;
 }
